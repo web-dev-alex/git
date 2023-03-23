@@ -38,7 +38,21 @@
     <p class="fett">basisfunktionen in der richtigen Reihenfolge</p>
     <p>1. im terminal das verzeichnis der gewünschten datei auswählen</p>
     <p>2. dann mit dem Befehl: <span class="comand"> git init</span> leeres repository initialisieren</p>
-    <p>3. mit dem Befehl: <span class="comand">git status</span>wird eine übersicht von verfolgten/nicht verfolgten dateien gezeigt</p>
-    
+    <p>3. mit dem Befehl: <span class="comand">git status</span> wird eine übersicht von verfolgten/nicht verfolgten dateien gezeigt</p>
+    <p>4. für das staging von einer datei wird der Befehl: <span class="comand">git add [dateiname]</span></p>
+    <p>mit dem zuvor genannten Befehl wird die Datei verfolgt(track the file)</p>
+    <p>mit dem Befehl: <span class="comand">git add .</span> können alle dateien in dem gewählten ordner gestagte werden</p>
+    <p>optional: mit dem Befehl: <span class="comand">git status</span> kann nach der Verwendung des <span class="comand">git add [dateiname]</span> das erfolgreich gestagte file kontrolliert werden (die datei wird jetzt getracked)</p>
+    <p>5. die datei/file ist jetzt bereit für ein commit/festlegen</p>
+    <p>6. vor dem Anlegen eines Speicherpunktes muss ein account angelegt werden</p>
+    <p>Befehl: <span class="comand">git config --global user.name "[username]"</span></p>
+    <p>Befehl: <span class="comand">git config --global user.email "[email]"</span></p>
+    <p>7. um einen neuen Speicherpunkt anlegen zu können wird der Befehl: <span class="comand">git commit -m "Startpunkt"</span> verwendet</p>
+    <p>bei dem genannten Befehl wird mit dem Speicherpunkt eine Message(die nachricht im Beispiel oben ist Startpunkt) hinterlegt</p>
+    <p>zur Kontrolle kann der Befehl: <span class="comand">git log</span> verwendet werden</p>
+
+    <p class="fett">datei auf den letzten Speicherpunkt zurücksetzen</p>
+    <p>1. anzeigen des letzten Speicherpunktes und des aktuellen Zustandes der Datei/file mit dem Befehl: <span class="comand">git diff [dateiname]</span></p>
+    <p>2. löschen des aktuellen Zustandes und zurücksetzen auf den alten Speicherpunkt mit dem Befehl: <span class="comand">git checkout [dateiname]</span></p>
 </body>
 </html>
